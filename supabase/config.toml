@@ -1,0 +1,13 @@
+# Supabase CLI config for AI Film Studio.
+# Deploy with: supabase functions deploy generate-scene --project-ref <ref>
+#              supabase functions deploy poll-generation --project-ref <ref>
+# Required function secrets: KIE_API_KEY
+# Optional overrides: KIE_T2V_MODEL, KIE_I2V_MODEL
+
+[functions.generate-scene]
+enabled = true
+verify_jwt = true
+
+[functions.poll-generation]
+enabled = true
+verify_jwt = true

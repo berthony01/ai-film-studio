@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.6.2",
+    "vite": "^6.0.11",
+    "@vitejs/plugin-react": "^4.3.4"
+  },
+  "name": "ai-film-studio",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
